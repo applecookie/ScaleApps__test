@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400, 400i, 600|Roboto:100,400,700';
+
+$min-device-width: 320px;
+$body-bg: #eee;
+$font-color: #000;
+$page-padding-top: 70px;
+$page-padding-bottom: 90px;
+
+$padding-default: 15px;
+
+body {
+    background: $body-bg;
+    color: $font-color;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+body,
+.container,
+.container-fluid {
+    min-width: $min-device-width;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.main {
+    padding-top: $page-padding-top;
+    padding-bottom: $page-padding-bottom;
+}
+
+.footer {
+    padding-top: $padding-default;
+    padding-bottom: $padding-default;
+    .footer__address {
+        margin-bottom: 0;
+        float: right;
+    }
+}
+
+.material-icons {
+    vertical-align: bottom;
+}
