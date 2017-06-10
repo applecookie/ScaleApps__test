@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400, 400i, 600|Roboto:100,400,700';
+body {
+  background: #eee;
+  color: #000;
+  font-family: 'Roboto', 'Open Sans', sans-serif; }
+
+body,
+.container,
+.container-fluid {
+  min-width: 320px; }
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .navbar-brand img {
+    height: 100%;
+    width: auto; }
+
+.main {
+  padding-top: 70px;
+  padding-bottom: 90px; }
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .footer .footer__address {
+    margin-bottom: 0;
+    float: right; }
+
+.material-icons {
+  vertical-align: bottom; }
+
+/*# sourceMappingURL=style.css.map */
