@@ -8,6 +8,12 @@ $page-padding-bottom: 90px;
 
 $padding-default: 15px;
 
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background: $body-bg;
     color: $font-color;
@@ -33,14 +39,25 @@ body,
     padding-top: $page-padding-top;
     padding-bottom: $page-padding-bottom;
 }
-
-.footer {
+/*фиксированный футер*/
+.footer_bootstrap {
     padding-top: $padding-default;
     padding-bottom: $padding-default;
-    .footer__address {
-        margin-bottom: 0;
-        float: right;
-    }
+}
+
+.footer__address {
+    margin-bottom: 0;
+    float: right;
+}
+
+/*прижатый футер*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: lighten($body-bg, 5%);
+    padding-top: $padding-default;
+    padding-bottom: $padding-default;
 }
 
 .material-icons {
