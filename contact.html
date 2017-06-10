@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ScaleApps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse hidden">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/logo.png" alt="ScaleApps" height="50" width="290">
+            </a>
+        </div>
+        <div class="navbar-form navbar-right">
+            <a href="#" class="btn btn-danger">Start</a>
+            <a href="#" class="btn btn-danger">Login</a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/logo.png" alt="ScaleApps" height="50" width="290">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Start</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main class="main container">
+<form>
+    <fieldset>
+        <legend>Contact us</legend>
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Message</label>
+                    <textarea class="form-control" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+</main>
+<footer class="footer navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <address class="footer__address">
+            630055, Новосибирск, ул. Гнесиных 10, офис 34
+        </address>
+    </div>
+</footer>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
